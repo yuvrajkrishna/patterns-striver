@@ -5,7 +5,7 @@ int main ( ) {
     int n = 5;
     
     char ch = 'E';
-    int num = 1;
+   
 
     for(int i = 1; i <= n ; i++){
 
@@ -14,8 +14,8 @@ int main ( ) {
             printf("%c ",ch);
             ch++;
         }
-        num++;
-        ch-=num;
+        
+        ch-=(i+1);
         printf("\n");
 
     }
